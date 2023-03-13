@@ -1,0 +1,7 @@
+create database FilmArsiv
+create table TBLFILMLER(
+ID INT IDENTITY(1,1) PRIMARY KEY,
+AD VARCHAR(50),
+KATEGORI VARCHAR(50),
+LINK VARCHAR(50)
+)
